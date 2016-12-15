@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "A way to filter request params in logger for Faraday."
   spec.description = "A Faraday middleware for params filtering in logs."
   spec.homepage = "https://github.com/westfieldlabs/faraday-log-filter"
+  spec.license = "Apache 2.0"
 
   spec.files = `git ls-files -z`.split("\x0").reject { |f|
     f.match(%r{^(test|spec|features)/})
