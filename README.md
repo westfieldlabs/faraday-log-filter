@@ -2,6 +2,8 @@
 
 A Faraday middleware for params filtering in logs.
 
+[![Code Climate](https://codeclimate.com/github/westfieldlabs/faraday-log-filter/badges/gpa.svg)](https://codeclimate.com/github/westfieldlabs/faraday-log-filter)
+[![Build Status](https://travis-ci.org/westfieldlabs/faraday-log-filter.svg?branch=master)](https://travis-ci.org/westfieldlabs/faraday-log-filter)
 ## Installation
 
 Add this line to your application's Gemfile:
