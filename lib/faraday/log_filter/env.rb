@@ -17,7 +17,7 @@ module Faraday
       end
 
       def dump_url
-        @filter.filter_url(url).to_s
+        @filter.filter_url(url.dup).to_s
       end
 
       def dump_body
