@@ -24,6 +24,8 @@ Once required, the logger can be added to any Faraday connection by inserting
 it into your connection's request/response stack:
 
 ```ruby
+require 'faraday/log_filter'
+
 connection = Faraday.new(url: "http://foo.com") do |faraday|
   faraday.request  :url_encoded
   faraday.response :log_filter, nil, 
